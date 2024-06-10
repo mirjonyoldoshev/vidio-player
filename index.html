@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamlakat haqida ma'lumot va bayramlar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Mamlakat haqida ma'lumot va bayramlar</h1>
+
+    <div>
+        <label for="countries">davlatlar:</label>
+        <select id="countries">
+            <option value=""> Qaysi mamlakat kerak✅ </option>
+        </select>
+    </div>
+
+    <div>
+        <button id="getCountryInfo">Mamlakat haqida </button>
+    </div>
+
+    <div id="countryInfo"></div>
+
+    <div>
+        <label for="year">yilni tanlang:</label>
+        <input type="number" id="year" min="1900" max="2024" value="2024">
+    </div>
+
+    <div>
+        <button id="getHolidays">Davlat bayramlari</button>
+    </div>
+
+    <div id="holidays"></div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
